@@ -1,0 +1,425 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="HandheldFriendly" content="True"/>
+	<meta http-equiv="Cache-Control" content="no-cache"/>
+	<title>Article</title>
+	
+	<link rel="stylesheet" href="./css/style.css" type="text/css">
+	<link rel="stylesheet" href="./css/fancybox/jquery.fancybox.css" type="text/css" media="screen" />		
+	<link rel="stylesheet" href="./css/vertical_carusel.css" type="text/css">
+
+		<!--[if IE]><script type="text/javascript" src="../excanvas.js"></script><![endif]-->
+ 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="./js/CreateHTML5Elements.js"></script>
+		<script type="text/javascript" src="./js/cssParser.js"></script>
+ 		<script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script> 
+		<script type="text/javascript" src="./js/jcarousellite_1.0.1.min.js"></script>
+		<script type="text/javascript" src="./js/fancybox/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="./js/fancybox/jquery.fancybox-1.2.1.pack.js"></script>
+		<script type="text/javascript" src="./js/jcarousellite_1.0.1.min.js"></script>
+			
+</head>
+
+<body>
+
+	<!-- WRAPPER -->
+
+	<div class="wrapper">
+
+		<!-- CONTENT -->
+			
+			<div class="header news">
+			
+				<hr class="header_1">
+				<hr class="header_2">
+				
+				<div class="content">
+					<div class="logo"><img src="img/logo.png" alt="logo"></div>
+					<div class="container menu_header left">
+						<img src="img/menu_header.png" alt="menu_header">
+					</div>
+					<div class="container search right">
+						<input class="search_form" type="text" name="search" value="" onfocus="if (this.value == 'search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'search';}" />
+					</div>
+				</div>
+			</div>
+
+		<section class='modul-2 news article'>
+			<div class="content">
+				<div class="container reklama center">
+				</div>
+				<div class="left_sitebar">
+					<div class="container title left_sitebar">
+						<p class="title_news">Lorem Ipsum dolor</p>
+					</div>
+					<div class="socials right_sitebar">
+						<a href="#"><img class="left" src="img/facebook_social-news.png" alt="facebook_social"></a>
+						<a href="#"><img class="left" src="img/twitter_social-news.png" alt="twitter_social"></a>
+						<a href="#"><img class="left" src="img/rss_social-news.png" alt="rss_social"></a>
+						<a href="#"><img class="left" src="img/mail_social-news.png" alt="mail_social"></a>
+						<a href="#"><img class="left" src="img/google_social-news.png" alt="google_social"></a>
+					</div>
+					<img class="line_article_title" src="img/line_top_article.png" alt="line_top_article" />
+					<div class="container video">
+						<video width="665" height="420" loop="loop" preload="auto" autoplay="autoplay" poster="./img/main_page_video.png">
+							<source src="./video/main_page.mp4" type="video/mp4">
+							<source src="./video/main_page.webm" type="video/webm">
+						</video>
+					</div>
+					
+					<div class="container small news_block">
+						<img class="fon_small right_sitebar" src="img/news-pic-7.png" alt="news-pic-7" />
+						<p class="text_article">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+											Duis aute irure dol or in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+											nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+											officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+											error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+											eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+											explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+											fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+											nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+											consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+											labore et dolore magnam aliquam quaerat voluptatem. Lorem ipsum dolor sit amet,
+											consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+											magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+											nisi ut aliquip ex ea commodo consequat. 
+											</p>
+						<div class="visit">
+							<p class="vist_text">50</p>
+							<img src="img/messages.png" alt="messages" />
+							<p class="vist_text">1000 &nbsp;&nbsp;</p>
+							<img src="img/visits.png" alt="visits" />
+							<p class="vist_text">15.01.2015 &nbsp;&nbsp;</p>
+							<img class="date" src="img/date.png" alt="date" />
+						</div>
+					</div>
+					
+					<div class="container slider article">
+						<!-- bxSlider Javascript file -->
+						<script src="js/jquery.bxslider.article.min.js"></script>
+						<!-- bxSlider CSS file -->
+						<link href="css/jquery.bxslider.css" rel="stylesheet" />
+						<script>
+
+						$(document).ready(function(){
+		
+							var slider = $('.bxslider').bxSlider({
+							});
+
+							$('#bx-next-art').click(function(){
+							  slider.goToNextSlide();
+							  return false;
+							});
+							$('#bx-prev-art').click(function(){
+							  slider.goToNextSlide();
+							  return false;
+							});
+						});
+						</script>
+						<ul class="bxslider">
+						
+							<li>
+								<img src="img/slide-1-article.png"  />
+							</li>
+							
+							<li>
+								<img src="img/slide-2-article.png" />
+							</li>
+							
+							<li>
+								<img src="img/slide-3-article.png" />
+							</li>
+							
+							<li>
+								<img src="img/slide-1-article.png" />
+							</li>
+							
+							<li>
+								<img src="img/slide-2-article.png" />
+							</li>	
+							
+							<li>
+								<img src="img/slide-3-article.png" />
+							</li>
+
+						</ul>
+						<div><a href="" id="bx-prev-art"></a></div>
+						<div><a href="" id="bx-next-art"></a></div>
+					</div>
+					<div class="left_sitebar block-bottom-content">
+						<div class="container left_sitebar">
+							
+						</div>
+						<div class="container right_sitebar">
+							
+						</div>
+					</div>
+				</div>
+				<div class="right_sitebar">
+					<div class="container slider">
+						<script type="text/javascript" >
+							$(function() {
+								$(".Vwidget  .VjCarouselLite").jCarouselLite({
+								btnNext: ".Vwidget .down",
+								btnPrev: ".Vwidget .up",
+								vertical: true,
+								visible: 1,
+								auto: 3000,
+								speed: 800,
+								circular: true
+								});
+							});
+						</script>
+						<div class="Vwidget">
+							<a href="#" class="up"></a>
+							<div class="VjCarouselLite">
+							<ul>
+								<li>
+									<div>
+										<img src="img/slider_2/vs_pic-1.png" />
+									</div>
+								</li>
+								
+								<li>
+									<div>
+										<img src="img/slider_2/vs_pic-2.png" />
+									</div>
+								</li>
+								
+								<li>
+									<div>
+										<img src="img/slider_2/vs_pic-3.png" />
+										</div>
+								</li>
+								
+								<li>
+									<div>
+										<img src="img/slider_2/vs_pic-4.png" />
+									</div>
+								</li>
+								
+								<li>
+									<div>
+										<img src="img/slider_2/vs_pic-5.png" />
+									</div>
+								</li>
+							</ul>
+							</div>
+							<a href="#" class="down"></a>
+						</div>
+					</div>
+					<div class="container reklama_2 center">
+						
+					</div>
+					<div class="container form">
+						<form>
+							<label>SIGN UP FOR OUR NEWSLETTER</label>
+							<input class="mail_form" type="text" name="e-mail" value="e-mail" onfocus="if (this.value == 'e-mail') {this.value = '';}" onblur="if (this.value == '') {this.value = 'e-mail';}" />
+							<input class="button_mail" type="button" value="submit" onclick="" />
+						</form>
+					</div>
+					<div class="container watching">
+						<p class="label_watching">Watching</p>
+						<ul class="watching_list">
+							<li>
+								<p class="times">21m</p>
+								<a href="#"><p class="watching_list_text"> - Sed ut perspiciatis, unde omnis iste natus error sit volupta tem accusantium...</p></a>
+							</li>
+							<li>
+								<p class="times">55m</p>
+								<a href="#"><p class="watching_list_text"> - Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium...</p></a>
+							</li>
+							<li>
+								<p class="times">1h</p>
+								<a href="#"><p class="watching_list_text"> - Iste natus error sit voluptatem accusantium...</p></a>
+							</li>
+							<li>
+								<p class="times">2h</p>
+								<a href="#"><p class="watching_list_text"> - Iste natus error sit voluptatem accusantium...</p></a>
+							</li>
+							<li>
+								<p class="times">55m</p>
+								<a href="#"><p class="watching_list_text"> - Sed ut perspiciatis, unde omnis iste natus error sit...</p></a>
+							</li>
+							<li>
+								<p class="times">1h</p>
+								<a href="#"><p class="watching_list_text"> - Iste natus error sit voluptatem accusantium...</p></a>
+							</li>
+							<li>
+								<p class="times">2h</p>
+								<a href="#"><p class="watching_list_text"> - Iste natus error sit voluptatem accusantium...</p></a>
+							</li>
+							<li>
+								<p class="times">3h</p>
+								<a href="#"><p class="watching_list_text"> - Iste natus error sit voluptatem accusantium...</p></a>
+							</li>
+						</ul>
+					</div>
+				</div>	
+			</div><!--end m2_content-->
+		</section><!--end modul-2-->
+		
+		<section class='modul-4 news'>
+			<div class="content">
+				<hr class="line_bloks">
+				<p class="other_text">Lorem Ipsum dolor</p>
+				<div class="container others">
+					<div class="container small">
+						<img class="fon_small" src="img/block-4-pick-1.png" alt="block-4-pick-1" />
+						<p class="small_title">Lorem Ipsum dolor</p>
+						<p class="small_text">Lorem Ipsum dolor sit amet...</p>
+						<div class="visit">
+							<p class="vist_text">1000</p>
+							<img src="img/visits.png" alt="visits" />
+						</div>
+					</div>
+					<div class="container small">
+						<img class="fon_small" src="img/block-4-pick-2.png" alt="block-4-pick-2" />
+						<p class="small_title">Lorem Ipsum dolor</p>
+						<p class="small_text">Lorem Ipsum dolor sit amet...</p>
+						<div class="visit">
+							<p class="vist_text">1000</p>
+							<img src="img/visits.png" alt="visits" />
+						</div>
+					</div>
+					<div class="container small">
+						<img class="fon_small" src="img/block-4-pick-3.png" alt="block-4-pick-3" />
+						<p class="small_title">Lorem Ipsum dolor</p>
+						<p class="small_text">Lorem Ipsum dolor sit amet...</p>
+						<div class="visit">
+							<p class="vist_text">1000</p>
+							<img src="img/visits.png" alt="visits" />
+						</div>
+					</div>
+					<div class="container small">
+						<img class="fon_small" src="img/block-4-pick-4.png" alt="block-4-pick-4" />
+						<p class="small_title">Lorem Ipsum dolor</p>
+						<p class="small_text">Lorem Ipsum dolor sit amet...</p>
+						<div class="visit">
+							<p class="vist_text">1000</p>
+							<img src="img/visits.png" alt="visits" />
+						</div>
+					</div>
+				</div>
+			</div><!--end m4_content-->
+		</section><!--end modul-4-->
+
+		<section class='modul-5 news'>
+			<div class="content">
+				<p class="sites_like">Sites we like</p>
+					<div class="container likes">
+						<div class="fon_like part-1">
+							<p>SPORTS</p>
+						</div>
+						<div class="fon_like part-2">
+							<img class="logo_likes" src="img/logo-like-1.png" alt="logo-like-1" />
+						</div>
+						<div class="fon_like part-3">
+							<p>Blackhat Is a Slack Piece of Storytelling Surrounded by That Alluring Michael Mann Feel</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>Clint Eastwood Turns American Sniper Into a Republican Platform Movie</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>As a Professor Who Develops Alzheimer's, Julianne Moore Is Marvelous in Still Alice</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>Future Broadway Star Larry David Hates the Theater, Likes Hotel Sex</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>More from VULTURE</p>
+						</div>
+					</div>
+					<div class="container likes">
+						<div class="fon_like part-1">
+							<p>ENTERTAINMENT</p>
+						</div>
+						<div class="fon_like part-2">
+							<img class="logo_likes" src="img/logo-like-2.png" alt="logo-like-2" />
+						</div>
+						<div class="fon_like part-3">
+							<p>Blackhat Is a Slack Piece of Storytelling Surrounded by That Alluring Michael Mann Feel</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>Clint Eastwood Turns American Sniper Into a Republican Platform Movie</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>As a Professor Who Develops Alzheimer's, Julianne Moore Is Marvelous in Still Alice</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>Future Broadway Star Larry David Hates the Theater, Likes Hotel Sex</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>More from VULTURE</p>
+						</div>
+					</div>
+					<div class="container likes">
+						<div class="fon_like part-1">
+							<p>NEWS</p>
+						</div>
+						<div class="fon_like part-2">
+							<img class="logo_likes" src="img/logo-like-3.png" alt="logo-like-3" />
+						</div>
+						<div class="fon_like part-3">
+							<p>Blackhat Is a Slack Piece of Storytelling Surrounded by That Alluring Michael Mann Feel</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>Clint Eastwood Turns American Sniper Into a Republican Platform Movie</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>As a Professor Who Develops Alzheimer's, Julianne Moore Is Marvelous in Still Alice</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>Future Broadway Star Larry David Hates the Theater, Likes Hotel Sex</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>More from VULTURE</p>
+						</div>
+					</div>
+			</div><!--end m5_content-->
+		</section><!--end modul-5-->
+		
+		<footer class="news">
+			<div class="content">
+				<div class="container zvezda_f center">
+					<img class="zvezda_footer" src="img/zvezda_footer.png" />
+				</div>
+				<div class="left_sitebar">
+					<div class="container">
+						<p class="title_footer">Designer<b>Men</b>s</p>
+					</div>
+					<div class="socials">
+						<a href="#"><img class="left" src="img/facebook_social_footer.png" alt="facebook_social_footer"></a>
+						<a href="#"><img class="left" src="img/twitter_social_footer.png" alt="twitter_social_footer"></a>
+						<a href="#"><img class="left" src="img/rss_social_footer.png" alt="rss_social_footer"></a>
+						<a href="#"><img class="left" src="img/mail_social_footer.png" alt="mail_social_footer"></a>
+						<a href="#"><img class="left" src="img/google_social_footer.png" alt="google_social_footer"></a>
+					</div>
+				</div>
+				<div class="right_sitebar">
+					<div class="container menu_footer">
+						<ul>
+							<li><a href="#">Menu lorem ipsum</a></li>
+							<li><a href="#">Menu lorem ipsum</a></li>
+							<li><a href="#">Menu lorem ipsum</a></li>
+							<li><a href="#">Menu lorem ipsum</a></li>
+							<li><a href="#">Menu lorem ipsum</a></li>
+							<li><a href="#">Menu lorem ipsum</a></li>
+						</ul>
+					</div>
+				</div>
+			</div><!--end f_content-->
+		</footer><!--end footer--> 
+		
+			<div class="container bottom news center">
+				<p class="bottom_text">© 2015 DesignerMens All rights reserved</p>
+			</div>
+			
+	</div><!--end wrapper--> 
+	
+</body>
+</html>

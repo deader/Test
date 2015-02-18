@@ -1,0 +1,545 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="HandheldFriendly" content="True"/>
+	<meta http-equiv="Cache-Control" content="no-cache"/>
+	<title>Main</title>
+	
+	<link rel="stylesheet" href="./css/style.css" type="text/css">
+	<link rel="stylesheet" href="./css/fancybox/jquery.fancybox.css" type="text/css" media="screen" />		
+	<link rel="stylesheet" href="./css/vertical_carusel.css" type="text/css">
+
+		<!--[if IE]><script type="text/javascript" src="../excanvas.js"></script><![endif]-->
+ 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="./js/CreateHTML5Elements.js"></script>
+		<script type="text/javascript" src="./js/cssParser.js"></script>
+ 		<script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script> 
+		<script type="text/javascript" src="./js/jcarousellite_1.0.1.min.js"></script>
+		<script type="text/javascript" src="./js/fancybox/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="./js/fancybox/jquery.fancybox-1.2.1.pack.js"></script>
+		<script type="text/javascript" src="./js/jcarousellite_1.0.1.min.js"></script>
+			
+</head>
+
+<body>
+
+	<!-- WRAPPER -->
+
+	<div class="wrapper">
+
+		<!-- CONTENT -->
+			
+			<div class="header">
+			
+				<hr class="header_1">
+				<hr class="header_2">
+				
+				<div class="content">
+					<div class="logo"><img src="img/logo.png" alt="logo"></div>
+					<div class="container menu_header left">
+						<img src="img/menu_header.png" alt="menu_header">
+					</div>
+					<div class="container search right">
+						<input class="search_form" type="text" name="search" value="" onfocus="if (this.value == 'search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'search';}" />
+					</div>
+				</div>
+			</div>
+
+		<section class='modul-1'>
+			<div class="content">
+				<div class="left_sitebar">
+					<div class="container center">
+						<img src="img/img_1_main_menu_top.png" alt="img_1_main_menu_top">
+					</div>
+					<div id="menu_main">
+						<ul>
+							<li><a href="#">Lorem ipsum</a><hr></li>
+							<li><a href="#">Lorem ipsum</a><hr></li>
+							<li><a href="#">Lorem ipsum</a><hr></li>
+							<li><a href="#">Lorem ipsum</a><hr></li>
+							<li><a href="#">Lorem ipsum</a><hr></li>
+							<li><a href="#">Lorem ipsum</a><hr></li>
+						</ul>
+					</div>
+					<div class="socials">
+						<a href="#"><img class="left" src="img/facebook_social.png" alt="facebook_social"></a>
+						<a href="#"><img class="left" src="img/twitter_social.png" alt="twitter_social"></a>
+						<a href="#"><img class="left" src="img/rss_social.png" alt="rss_social"></a>
+						<a href="#"><img class="left" src="img/mail_social.png" alt="mail_social"></a>
+						<a href="#"><img class="left" src="img/google_social.png" alt="google_social"></a>
+					</div>
+				</div>
+				<div class="right_sitebar">
+					<div class="container reklama">
+						
+					</div>
+					<div class="container video">
+						<div class="label_video">
+							<p>Lorem Ipsum</p>
+						</div>
+						<video width="723" height="365" loop="loop" preload="auto" autoplay="autoplay" poster="./img/main_page_video.png">
+							<source src="./video/main_page.mp4" type="video/mp4">
+							<source src="./video/main_page.webm" type="video/webm">
+						</video>
+					</div>
+				</div>
+				<div class="container slider">
+					<!-- bxSlider Javascript file -->
+					<script src="js/jquery.bxslider.min.js"></script>
+					<!-- bxSlider CSS file -->
+					<link href="css/jquery.bxslider.css" rel="stylesheet" />
+					<script>
+
+					$(document).ready(function(){
+    
+						var slider = $('.bxslider').bxSlider({
+						});
+
+						$('#bx-next').click(function(){
+						  slider.goToNextSlide();
+						  return false;
+						});
+						$('#bx-prev').click(function(){
+						  slider.goToNextSlide();
+						  return false;
+						});
+					});
+					</script>
+					<ul class="bxslider">
+					
+						<li>
+							<div class="label_slider_li center">
+								<p>Lorem Ipsum dolor</p>
+							</div>
+							<img src="img/slider_1/pic1.png"  />
+						</li>
+						
+						<li>
+							<div class="label_slider_li center">
+								<p>Lorem Ipsum dolor</p>
+							</div>
+							<img src="img/slider_1/pic2.png" />
+						</li>
+						
+						<li>
+							<div class="label_slider_li center">
+								<p>Lorem Ipsum dolor</p>
+							</div>
+							<img src="img/slider_1/pic3.png" />
+						</li>
+						<li>
+							<div class="label_slider_li center">
+								<p>Lorem Ipsum dolor</p>
+							</div>
+							<img src="img/slider_1/pic4.png" />
+						</li>
+
+					</ul>
+					<div><a href="" id="bx-prev"></a></div>
+					<div><a href="" id="bx-next"></a></div>
+				</div>
+			</div><!--end m1_content-->
+		</section><!--end modul-1-->
+
+		<section class='modul-2'>
+			<div class="content">
+				<div class="left_sitebar">
+					<div class="container large">
+						<img src="img/fon_large.png" alt="fon_large" />
+						<div class="label_large center">
+							<p class="text_label">Lorem Ipsum dolor</p>
+							<div class="visit">
+								<p class="vist_text">1000</p>
+								<img src="img/large_visit.png" alt="visits" />
+							</div>
+						</div>
+					</div>
+					<div class="container small">
+						<img class="fon_small" src="img/block-2-pick-1.png" alt="block-2-pick-1" />
+						<p class="small_title">Lorem Ipsum dolor</p>
+						<p class="small_text">Lorem Ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+						<div class="visit">
+							<p class="vist_text">1000</p>
+							<img src="img/visits.png" alt="visits" />
+						</div>
+					</div>
+					<div class="container small">
+						<img class="fon_small" src="img/block-2-pick-2.png" alt="block-2-pick-2" />
+						<p class="small_title">Lorem Ipsum dolor</p>
+						<p class="small_text">Lorem Ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+						<div class="visit">
+							<p class="vist_text">1000</p>
+							<img src="img/visits.png" alt="visits" />
+						</div>
+					</div>
+					<div class="container small">
+						<img class="fon_small" src="img/block-2-pick-3.png" alt="block-2-pick-3" />
+						<p class="small_title">Lorem Ipsum dolor</p>
+						<p class="small_text">Lorem Ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+						<div class="visit">
+							<p class="vist_text">1000</p>
+							<img src="img/visits.png" alt="visits" />
+						</div>
+					</div>
+					<div class="container small">
+						<img class="fon_small" src="img/block-2-pick-4.png" alt="block-2-pick-4" />
+						<p class="small_title">Lorem Ipsum dolor</p>
+						<p class="small_text">Lorem Ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+						<div class="visit">
+							<p class="vist_text">1000</p>
+							<img src="img/visits.png" alt="visits" />
+						</div>
+					</div>
+					<div class="container small">
+						<img class="fon_small" src="img/block-2-pick-5.png" alt="block-2-pick-5" />
+						<p class="small_title">Lorem Ipsum dolor</p>
+						<p class="small_text">Lorem Ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+						<div class="visit">
+							<p class="vist_text">1000</p>
+							<img src="img/visits.png" alt="visits" />
+						</div>
+					</div>
+					<div class="container small">
+						<img class="fon_small" src="img/block-2-pick-6.png" alt="block-2-pick-6" />
+						<p class="small_title">Lorem Ipsum dolor</p>
+						<p class="small_text">Lorem Ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+						<div class="visit">
+							<p class="vist_text">1000</p>
+							<img src="img/visits.png" alt="visits" />
+						</div>
+					</div>
+					<div class="container small">
+						<img class="fon_small" src="img/block-2-pick-7.png" alt="block-2-pick-7" />
+						<p class="small_title">Lorem Ipsum dolor</p>
+						<p class="small_text">Lorem Ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+						<div class="visit">
+							<p class="vist_text">1000</p>
+							<img src="img/visits.png" alt="visits" />
+						</div>
+					</div>
+				</div>
+				<div class="right_sitebar">
+					<div class="container slider">
+						<script type="text/javascript" >
+							$(function() {
+								$(".Vwidget  .VjCarouselLite").jCarouselLite({
+								btnNext: ".Vwidget .down",
+								btnPrev: ".Vwidget .up",
+								vertical: true,
+								visible: 1,
+								auto: 3000,
+								speed: 800,
+								circular: true
+								});
+							});
+						</script>
+						<div class="Vwidget">
+							<a href="#" class="up"></a>
+							<div class="VjCarouselLite">
+							<ul>
+								<li>
+									<div>
+										<img src="img/slider_2/vs_pic-1.png" />
+									</div>
+								</li>
+								
+								<li>
+									<div>
+										<img src="img/slider_2/vs_pic-2.png" />
+									</div>
+								</li>
+								
+								<li>
+									<div>
+										<img src="img/slider_2/vs_pic-3.png" />
+										</div>
+								</li>
+								
+								<li>
+									<div>
+										<img src="img/slider_2/vs_pic-4.png" />
+									</div>
+								</li>
+								
+								<li>
+									<div>
+										<img src="img/slider_2/vs_pic-5.png" />
+									</div>
+								</li>
+							</ul>
+							</div>
+							<a href="#" class="down"></a>
+						</div>
+					</div>
+					<div class="container form">
+						<form>
+							<label>SIGN UP FOR OUR NEWSLETTER</label>
+							<input class="mail_form" type="text" name="e-mail" value="e-mail" onfocus="if (this.value == 'e-mail') {this.value = '';}" onblur="if (this.value == '') {this.value = 'e-mail';}" />
+							<input class="button_mail" type="button" value="submit" onclick="" />
+						</form>
+					</div>
+					<div class="container watching">
+						<p class="label_watching">Watching</p>
+						<ul class="watching_list">
+							<li>
+								<p class="times">21m</p>
+								<a href="#"><p class="watching_list_text"> - Sed ut perspiciatis, unde omnis iste natus error sit volupta tem accusantium...</p></a>
+							</li>
+							<li>
+								<p class="times">55m</p>
+								<a href="#"><p class="watching_list_text"> - Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium...</p></a>
+							</li>
+							<li>
+								<p class="times">1h</p>
+								<a href="#"><p class="watching_list_text"> - Iste natus error sit voluptatem accusantium...</p></a>
+							</li>
+							<li>
+								<p class="times">2h</p>
+								<a href="#"><p class="watching_list_text"> - Iste natus error sit voluptatem accusantium...</p></a>
+							</li>
+							<li>
+								<p class="times">55m</p>
+								<a href="#"><p class="watching_list_text"> - Sed ut perspiciatis, unde omnis iste natus error sit...</p></a>
+							</li>
+							<li>
+								<p class="times">1h</p>
+								<a href="#"><p class="watching_list_text"> - Iste natus error sit voluptatem accusantium...</p></a>
+							</li>
+							<li>
+								<p class="times">2h</p>
+								<a href="#"><p class="watching_list_text"> - Iste natus error sit voluptatem accusantium...</p></a>
+							</li>
+							<li>
+								<p class="times">3h</p>
+								<a href="#"><p class="watching_list_text"> - Iste natus error sit voluptatem accusantium...</p></a>
+							</li>
+						</ul>
+					</div>
+				</div>	
+				<a class="load_more" href="#"><img src="img/load_more.png" alt="load_more" /></a>
+			</div><!--end m2_content-->
+		</section><!--end modul-2-->
+
+		<section class='modul-3'>
+			<div class="content">
+					<div class="container small">
+						<img class="fon_small" src="img/block-3-pick-1-small.png" alt="block-3-pick-1-small" />
+						<p class="small_title">Lorem Ipsum dolor</p>
+						<p class="small_text">Lorem Ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+						<div class="visit">
+							<p class="vist_text">1000</p>
+							<img src="img/visits.png" alt="visits" />
+						</div>
+					</div>
+					<div class="container large double">
+						<img src="img/fon_large_2.png" alt="fon_large_2" />
+						<div class="label_large center">
+							<p class="text_label">Lorem Ipsum dolor</p>
+							<div class="visit">
+								<p class="vist_text">1000</p>
+								<img src="img/large_visit.png" alt="visits" />
+							</div>
+						</div>
+					</div>
+					<div class="container small">
+						<img class="fon_small" src="img/block-3-pick-2-small.png" alt="block-3-pick-2-small" />
+						<p class="small_title">Lorem Ipsum dolor</p>
+						<p class="small_text">Lorem Ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+						<div class="visit">
+							<p class="vist_text">1000</p>
+							<img src="img/visits.png" alt="visits" />
+						</div>
+					</div>
+					<div class="container three" >
+						<div class="container small">
+							<img class="fon_small" src="img/block-3-pick-1.png" alt="block-3-pick-1" />
+							<p class="small_title">Lorem Ipsum dolor</p>
+							<p class="small_text">Lorem Ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+							<div class="visit">
+								<p class="vist_text">1000</p>
+								<img src="img/visits.png" alt="visits" />
+							</div>
+						</div>
+						<div class="container small">
+							<img class="fon_small" src="img/block-3-pick-2.png" alt="block-3-pick-2" />
+							<p class="small_title">Lorem Ipsum dolor</p>
+							<p class="small_text">Lorem Ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+							<div class="visit">
+								<p class="vist_text">1000</p>
+								<img src="img/visits.png" alt="visits" />
+							</div>
+						</div>
+						<div class="container small">
+							<img class="fon_small" src="img/block-3-pick-3.png" alt="block-3-pick-3" />
+							<p class="small_title">Lorem Ipsum dolor</p>
+							<p class="small_text">Lorem Ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+							<div class="visit">
+								<p class="vist_text">1000</p>
+								<img src="img/visits.png" alt="visits" />
+							</div>
+						</div>
+					</div>
+			</div><!--end m3_content-->
+		</section><!--end modul-3-->
+
+		<section class='modul-4'>
+			<div class="content">
+				<hr class="line_bloks">
+				<p class="other_text">Lorem Ipsum dolor</p>
+				<div class="container others">
+					<div class="container small">
+						<img class="fon_small" src="img/block-4-pick-1.png" alt="block-4-pick-1" />
+						<p class="small_title">Lorem Ipsum dolor</p>
+						<p class="small_text">Lorem Ipsum dolor sit amet...</p>
+						<div class="visit">
+							<p class="vist_text">1000</p>
+							<img src="img/visits.png" alt="visits" />
+						</div>
+					</div>
+					<div class="container small">
+						<img class="fon_small" src="img/block-4-pick-2.png" alt="block-4-pick-2" />
+						<p class="small_title">Lorem Ipsum dolor</p>
+						<p class="small_text">Lorem Ipsum dolor sit amet...</p>
+						<div class="visit">
+							<p class="vist_text">1000</p>
+							<img src="img/visits.png" alt="visits" />
+						</div>
+					</div>
+					<div class="container small">
+						<img class="fon_small" src="img/block-4-pick-3.png" alt="block-4-pick-3" />
+						<p class="small_title">Lorem Ipsum dolor</p>
+						<p class="small_text">Lorem Ipsum dolor sit amet...</p>
+						<div class="visit">
+							<p class="vist_text">1000</p>
+							<img src="img/visits.png" alt="visits" />
+						</div>
+					</div>
+					<div class="container small">
+						<img class="fon_small" src="img/block-4-pick-4.png" alt="block-4-pick-4" />
+						<p class="small_title">Lorem Ipsum dolor</p>
+						<p class="small_text">Lorem Ipsum dolor sit amet...</p>
+						<div class="visit">
+							<p class="vist_text">1000</p>
+							<img src="img/visits.png" alt="visits" />
+						</div>
+					</div>
+				</div>
+			</div><!--end m4_content-->
+		</section><!--end modul-4-->
+
+		<section class='modul-5'>
+			<div class="content">
+				<p class="sites_like">Sites we like</p>
+					<div class="container likes">
+						<div class="fon_like part-1">
+							<p>SPORTS</p>
+						</div>
+						<div class="fon_like part-2">
+							<img class="logo_likes" src="img/logo-like-1.png" alt="logo-like-1" />
+						</div>
+						<div class="fon_like part-3">
+							<p>Blackhat Is a Slack Piece of Storytelling Surrounded by That Alluring Michael Mann Feel</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>Clint Eastwood Turns American Sniper Into a Republican Platform Movie</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>As a Professor Who Develops Alzheimer's, Julianne Moore Is Marvelous in Still Alice</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>Future Broadway Star Larry David Hates the Theater, Likes Hotel Sex</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>More from VULTURE</p>
+						</div>
+					</div>
+					<div class="container likes">
+						<div class="fon_like part-1">
+							<p>ENTERTAINMENT</p>
+						</div>
+						<div class="fon_like part-2">
+							<img class="logo_likes" src="img/logo-like-2.png" alt="logo-like-2" />
+						</div>
+						<div class="fon_like part-3">
+							<p>Blackhat Is a Slack Piece of Storytelling Surrounded by That Alluring Michael Mann Feel</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>Clint Eastwood Turns American Sniper Into a Republican Platform Movie</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>As a Professor Who Develops Alzheimer's, Julianne Moore Is Marvelous in Still Alice</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>Future Broadway Star Larry David Hates the Theater, Likes Hotel Sex</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>More from VULTURE</p>
+						</div>
+					</div>
+					<div class="container likes">
+						<div class="fon_like part-1">
+							<p>NEWS</p>
+						</div>
+						<div class="fon_like part-2">
+							<img class="logo_likes" src="img/logo-like-3.png" alt="logo-like-3" />
+						</div>
+						<div class="fon_like part-3">
+							<p>Blackhat Is a Slack Piece of Storytelling Surrounded by That Alluring Michael Mann Feel</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>Clint Eastwood Turns American Sniper Into a Republican Platform Movie</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>As a Professor Who Develops Alzheimer's, Julianne Moore Is Marvelous in Still Alice</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>Future Broadway Star Larry David Hates the Theater, Likes Hotel Sex</p>
+						</div>
+						<div class="fon_like part-3">
+							<p>More from VULTURE</p>
+						</div>
+					</div>
+			</div><!--end m5_content-->
+		</section><!--end modul-5-->
+		
+		<footer>
+			<div class="content">
+				<div class="container zvezda_f center">
+					<img class="zvezda_footer" src="img/zvezda_footer.png" />
+				</div>
+				<div class="left_sitebar">
+					<div class="container">
+						<p class="title_footer">Designer<b>Men</b>s</p>
+					</div>
+					<div class="socials">
+						<a href="#"><img class="left" src="img/facebook_social_footer.png" alt="facebook_social_footer"></a>
+						<a href="#"><img class="left" src="img/twitter_social_footer.png" alt="twitter_social_footer"></a>
+						<a href="#"><img class="left" src="img/rss_social_footer.png" alt="rss_social_footer"></a>
+						<a href="#"><img class="left" src="img/mail_social_footer.png" alt="mail_social_footer"></a>
+						<a href="#"><img class="left" src="img/google_social_footer.png" alt="google_social_footer"></a>
+					</div>
+				</div>
+				<div class="right_sitebar">
+					<div class="container menu_footer">
+						<ul>
+							<li><a href="#">Menu lorem ipsum</a></li>
+							<li><a href="#">Menu lorem ipsum</a></li>
+							<li><a href="#">Menu lorem ipsum</a></li>
+							<li><a href="#">Menu lorem ipsum</a></li>
+							<li><a href="#">Menu lorem ipsum</a></li>
+							<li><a href="#">Menu lorem ipsum</a></li>
+						</ul>
+					</div>
+				</div>
+			</div><!--end f_content-->
+			<div class="container bottom center">
+				<p class="bottom_text">© 2015 DesignerMens All rights reserved</p>
+			</div>
+		</footer><!--end footer--> 
+		 
+	</div><!--end wrapper--> 
+	
+</body>
+</html>
